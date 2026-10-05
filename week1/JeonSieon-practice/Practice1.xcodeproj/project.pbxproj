@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		AE15B4D2307286ED00EBFCB1 /* Assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE15B4D2307286ED00EBFCB1 /* Practice1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AE15B4D4307286ED00EBFCB1 /* Assignment1 */ = {
+		AE15B4D4307286ED00EBFCB1 /* Practice1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Assignment1;
+			path = Practice1;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -30,7 +30,7 @@
 		AE15B4C9307286ED00EBFCB1 = {
 			isa = PBXGroup;
 			children = (
-				AE15B4D4307286ED00EBFCB1 /* Assignment1 */,
+				AE15B4D4307286ED00EBFCB1 /* Practice1 */,
 				AE15B4D3307286ED00EBFCB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,7 +38,7 @@
 		AE15B4D3307286ED00EBFCB1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE15B4D2307286ED00EBFCB1 /* Assignment1.app */,
+				AE15B4D2307286ED00EBFCB1 /* Practice1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,9 +46,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE15B4D1307286ED00EBFCB1 /* Assignment1 */ = {
+		AE15B4D1307286ED00EBFCB1 /* Practice1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE15B4DD307286EF00EBFCB1 /* Build configuration list for PBXNativeTarget "Assignment1" */;
+			buildConfigurationList = AE15B4DD307286EF00EBFCB1 /* Build configuration list for PBXNativeTarget "Practice1" */;
 			buildPhases = (
 				AE15B4CE307286ED00EBFCB1 /* Sources */,
 				AE15B4CF307286ED00EBFCB1 /* Frameworks */,
@@ -57,11 +57,11 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				AE15B4D4307286ED00EBFCB1 /* Assignment1 */,
+				AE15B4D4307286ED00EBFCB1 /* Practice1 */,
 			);
-			name = Assignment1;
-			productName = Assignment1;
-			productReference = AE15B4D2307286ED00EBFCB1 /* Assignment1.app */;
+			name = Practice1;
+			productName = Practice1;
+			productReference = AE15B4D2307286ED00EBFCB1 /* Practice1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -79,7 +79,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE15B4CD307286ED00EBFCB1 /* Build configuration list for PBXProject "Assignment1" */;
+			buildConfigurationList = AE15B4CD307286ED00EBFCB1 /* Build configuration list for PBXProject "Practice1" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -93,7 +93,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE15B4D1307286ED00EBFCB1 /* Assignment1 */,
+				AE15B4D1307286ED00EBFCB1 /* Practice1 */,
 			);
 		};
 /* End PBXProject section */
@@ -115,7 +115,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AE15B4DB307286EF00EBFCB1 /* Debug configuration for PBXProject "Assignment1" */ = {
+		AE15B4DB307286EF00EBFCB1 /* Debug configuration for PBXProject "Practice1" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +178,7 @@
 			};
 			name = Debug;
 		};
-		AE15B4DC307286EF00EBFCB1 /* Release configuration for PBXProject "Assignment1" */ = {
+		AE15B4DC307286EF00EBFCB1 /* Release configuration for PBXProject "Practice1" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +234,7 @@
 			};
 			name = Release;
 		};
-		AE15B4DE307286EF00EBFCB1 /* Debug configuration for PBXNativeTarget "Assignment1" */ = {
+		AE15B4DE307286EF00EBFCB1 /* Debug configuration for PBXNativeTarget "Practice1" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -253,7 +253,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sieon.Assignment1;
+				PRODUCT_BUNDLE_IDENTIFIER = sieon.Practice1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -265,7 +265,7 @@
 			};
 			name = Debug;
 		};
-		AE15B4DF307286EF00EBFCB1 /* Release configuration for PBXNativeTarget "Assignment1" */ = {
+		AE15B4DF307286EF00EBFCB1 /* Release configuration for PBXNativeTarget "Practice1" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -284,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sieon.Assignment1;
+				PRODUCT_BUNDLE_IDENTIFIER = sieon.Practice1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -299,19 +299,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE15B4CD307286ED00EBFCB1 /* Build configuration list for PBXProject "Assignment1" */ = {
+		AE15B4CD307286ED00EBFCB1 /* Build configuration list for PBXProject "Practice1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE15B4DB307286EF00EBFCB1 /* Debug configuration for PBXProject "Assignment1" */,
-				AE15B4DC307286EF00EBFCB1 /* Release configuration for PBXProject "Assignment1" */,
+				AE15B4DB307286EF00EBFCB1 /* Debug configuration for PBXProject "Practice1" */,
+				AE15B4DC307286EF00EBFCB1 /* Release configuration for PBXProject "Practice1" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		AE15B4DD307286EF00EBFCB1 /* Build configuration list for PBXNativeTarget "Assignment1" */ = {
+		AE15B4DD307286EF00EBFCB1 /* Build configuration list for PBXNativeTarget "Practice1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE15B4DE307286EF00EBFCB1 /* Debug configuration for PBXNativeTarget "Assignment1" */,
-				AE15B4DF307286EF00EBFCB1 /* Release configuration for PBXNativeTarget "Assignment1" */,
+				AE15B4DE307286EF00EBFCB1 /* Debug configuration for PBXNativeTarget "Practice1" */,
+				AE15B4DF307286EF00EBFCB1 /* Release configuration for PBXNativeTarget "Practice1" */,
 			);
 			defaultConfigurationName = Release;
 		};

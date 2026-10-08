@@ -9,7 +9,56 @@ import SwiftUI
 
 struct InstagramProfileView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .center, spacing: 0){
+            Image("Group 3")
+                .padding(.top,193)
+            
+            Image("Oval")
+                .padding(.top, 65)
+            
+            Text("moamoa")
+                .font(.system(size: 14, weight: .semibold))
+                .padding(.top, 13)
+            
+            Button{
+                
+            }label: {
+                Text("로그인하기")
+                    .font(.system(size: 14, weight: .semibold))
+                    .foregroundStyle(.white)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 44)
+                    .background(.blue)
+                    .clipShape(
+                        RoundedRectangle(cornerRadius: 5)
+                    )
+            }
+            .padding(.horizontal, 34)
+            .padding(.top, 12)
+            
+            Button("계정 전환"){}
+                .font(.system(size: 14, weight: .semibold))
+                .foregroundStyle(.blue)
+                .padding(.top, 30)
+            
+            Spacer()
+            
+            HStack(alignment: .center, spacing: 11){
+                Text("계정이 없으신가요?")
+                    .font(.system(size: 12,weight: .regular))
+                    .foregroundStyle(.black.opacity(0.4))
+                
+                Button{
+                    
+                } label:{
+                    Text("회원가입하기. ")
+                        .font(.system(size: 12,weight: .semibold))
+                        .foregroundStyle(.black)
+                }
+            }
+            .padding(.bottom, 18)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 

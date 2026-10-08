@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct InstagramProfileView: View {
+    @State private var showAlert: Bool = false
+
     var body: some View {
         VStack(alignment: .center, spacing: 0){
             Image("Group 3")
@@ -21,7 +23,7 @@ struct InstagramProfileView: View {
                 .padding(.top, 13)
             
             Button{
-                
+                showAlert = true
             }label: {
                 Text("로그인하기")
                     .font(.system(size: 14, weight: .semibold))
@@ -59,6 +61,9 @@ struct InstagramProfileView: View {
             .padding(.bottom, 18)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .alert("아직 앱 출시 전입니다!", isPresented: $showAlert) {
+            Button("확인", role: .cancel) {}
+        }
     }
 }
 

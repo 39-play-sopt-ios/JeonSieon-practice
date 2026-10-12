@@ -8,8 +8,7 @@
 import SwiftUI
 
 struct InstagramFeedView: View {
-    @State private var firstPostIsLiked = false
-    @State private var secondPostIsLiked = false
+    @State private var posts: [PostModel] = examplePosts
     
     var body: some View {
         ScrollView{
@@ -17,9 +16,9 @@ struct InstagramFeedView: View {
                 Image("Group 3")
                     .padding(.bottom, 30)
                 
-                PostCardView(profileImage: Image("Oval"), username: "이상엽", location: "서울 대한민국", postImage: Image("Rectangle"), likesText: "모아요님 외 7,777명이 좋아합니다", caption: "벌써 2차 세미나라니 정말 즐거워요!", timeText: "1시간 전", isLiked: $firstPostIsLiked)
-                
-                PostCardView(profileImage: Image("Oval"), username: "이상엽", location: "서울 대한민국", postImage: Image("Rectangle"), likesText: "모아요님 외 7,777명이 좋아합니다", caption: "드가자 모아요 아자아자", timeText: "2시간 전", isLiked: $secondPostIsLiked)
+                ForEach($posts) { $post in
+                    PostCardView(profileImage: Image("Oval"), username: post.username, location: post.location, postImage: Image(post.postImageName), likesText: post.likesText, caption: post.caption, timeText: post.timeText, isLiked: $post.isLiked)
+                }
                 
                 Spacer()
             }

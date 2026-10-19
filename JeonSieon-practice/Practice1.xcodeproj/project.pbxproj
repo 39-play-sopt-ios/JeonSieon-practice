@@ -6,8 +6,41 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AE76B53F3086704C005CD2C4 /* InstagramGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B5333086704C005CD2C4 /* InstagramGrid.swift */; };
+		AE76B5403086704C005CD2C4 /* DMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B52F3086704C005CD2C4 /* DMModel.swift */; };
+		AE76B5413086704C005CD2C4 /* LikeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B5363086704C005CD2C4 /* LikeButtonView.swift */; };
+		AE76B5423086704C005CD2C4 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B5383086704C005CD2C4 /* ListView.swift */; };
+		AE76B5433086704C005CD2C4 /* LikeStatePracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B5373086704C005CD2C4 /* LikeStatePracticeView.swift */; };
+		AE76B5443086704C005CD2C4 /* InstagramListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B5343086704C005CD2C4 /* InstagramListView.swift */; };
+		AE76B5453086704C005CD2C4 /* InstagramFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B5313086704C005CD2C4 /* InstagramFeedView.swift */; };
+		AE76B5463086704C005CD2C4 /* InstagramListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B5353086704C005CD2C4 /* InstagramListViewModel.swift */; };
+		AE76B5473086704C005CD2C4 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B53B3086704C005CD2C4 /* MessageRowView.swift */; };
+		AE76B5483086704C005CD2C4 /* MemberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B53A3086704C005CD2C4 /* MemberListView.swift */; };
+		AE76B5493086704C005CD2C4 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B53D3086704C005CD2C4 /* PostModel.swift */; };
+		AE76B54A3086704C005CD2C4 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B53C3086704C005CD2C4 /* PostCardView.swift */; };
+		AE76B54B3086704C005CD2C4 /* GridPracticeVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B5303086704C005CD2C4 /* GridPracticeVIew.swift */; };
+		AE76B54C3086704C005CD2C4 /* InstagramFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B5323086704C005CD2C4 /* InstagramFeedViewModel.swift */; };
+		AE76B54D3086704C005CD2C4 /* ListView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE76B5393086704C005CD2C4 /* ListView2.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AE15B4D2307286ED00EBFCB1 /* Practice1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE76B52F3086704C005CD2C4 /* DMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMModel.swift; sourceTree = "<group>"; };
+		AE76B5303086704C005CD2C4 /* GridPracticeVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPracticeVIew.swift; sourceTree = "<group>"; };
+		AE76B5313086704C005CD2C4 /* InstagramFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramFeedView.swift; sourceTree = "<group>"; };
+		AE76B5323086704C005CD2C4 /* InstagramFeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramFeedViewModel.swift; sourceTree = "<group>"; };
+		AE76B5333086704C005CD2C4 /* InstagramGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramGrid.swift; sourceTree = "<group>"; };
+		AE76B5343086704C005CD2C4 /* InstagramListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramListView.swift; sourceTree = "<group>"; };
+		AE76B5353086704C005CD2C4 /* InstagramListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramListViewModel.swift; sourceTree = "<group>"; };
+		AE76B5363086704C005CD2C4 /* LikeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonView.swift; sourceTree = "<group>"; };
+		AE76B5373086704C005CD2C4 /* LikeStatePracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeStatePracticeView.swift; sourceTree = "<group>"; };
+		AE76B5383086704C005CD2C4 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		AE76B5393086704C005CD2C4 /* ListView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView2.swift; sourceTree = "<group>"; };
+		AE76B53A3086704C005CD2C4 /* MemberListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListView.swift; sourceTree = "<group>"; };
+		AE76B53B3086704C005CD2C4 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		AE76B53C3086704C005CD2C4 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		AE76B53D3086704C005CD2C4 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -31,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				AE15B4D4307286ED00EBFCB1 /* Practice1 */,
+				AE76B53E3086704C005CD2C4 /* Practice2 */,
 				AE15B4D3307286ED00EBFCB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +75,28 @@
 				AE15B4D2307286ED00EBFCB1 /* Practice1.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AE76B53E3086704C005CD2C4 /* Practice2 */ = {
+			isa = PBXGroup;
+			children = (
+				AE76B52F3086704C005CD2C4 /* DMModel.swift */,
+				AE76B5303086704C005CD2C4 /* GridPracticeVIew.swift */,
+				AE76B5313086704C005CD2C4 /* InstagramFeedView.swift */,
+				AE76B5323086704C005CD2C4 /* InstagramFeedViewModel.swift */,
+				AE76B5333086704C005CD2C4 /* InstagramGrid.swift */,
+				AE76B5343086704C005CD2C4 /* InstagramListView.swift */,
+				AE76B5353086704C005CD2C4 /* InstagramListViewModel.swift */,
+				AE76B5363086704C005CD2C4 /* LikeButtonView.swift */,
+				AE76B5373086704C005CD2C4 /* LikeStatePracticeView.swift */,
+				AE76B5383086704C005CD2C4 /* ListView.swift */,
+				AE76B5393086704C005CD2C4 /* ListView2.swift */,
+				AE76B53A3086704C005CD2C4 /* MemberListView.swift */,
+				AE76B53B3086704C005CD2C4 /* MessageRowView.swift */,
+				AE76B53C3086704C005CD2C4 /* PostCardView.swift */,
+				AE76B53D3086704C005CD2C4 /* PostModel.swift */,
+			);
+			path = Practice2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +166,21 @@
 		AE15B4CE307286ED00EBFCB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				AE76B53F3086704C005CD2C4 /* InstagramGrid.swift in Sources */,
+				AE76B5403086704C005CD2C4 /* DMModel.swift in Sources */,
+				AE76B5413086704C005CD2C4 /* LikeButtonView.swift in Sources */,
+				AE76B5423086704C005CD2C4 /* ListView.swift in Sources */,
+				AE76B5433086704C005CD2C4 /* LikeStatePracticeView.swift in Sources */,
+				AE76B5443086704C005CD2C4 /* InstagramListView.swift in Sources */,
+				AE76B5453086704C005CD2C4 /* InstagramFeedView.swift in Sources */,
+				AE76B5463086704C005CD2C4 /* InstagramListViewModel.swift in Sources */,
+				AE76B5473086704C005CD2C4 /* MessageRowView.swift in Sources */,
+				AE76B5483086704C005CD2C4 /* MemberListView.swift in Sources */,
+				AE76B5493086704C005CD2C4 /* PostModel.swift in Sources */,
+				AE76B54A3086704C005CD2C4 /* PostCardView.swift in Sources */,
+				AE76B54B3086704C005CD2C4 /* GridPracticeVIew.swift in Sources */,
+				AE76B54C3086704C005CD2C4 /* InstagramFeedViewModel.swift in Sources */,
+				AE76B54D3086704C005CD2C4 /* ListView2.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
